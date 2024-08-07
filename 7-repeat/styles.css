@@ -1,0 +1,14 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 25px;
+  /* grid-template-columns: repeat(2, 100px 50px); */
+  /* grid-template-columns: repeat(4, fr); */
+  /* grid-template-columns: repeat(4, auto); */
+  /* grid-template-columns: 100px repeat(4, 1fr) 200px; */
+  /* grid-template-columns: repeat(3, 2fr) auto; */
+  grid-template-columns: repeat(3, 1fr 2fr);
+}
